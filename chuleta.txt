@@ -1,0 +1,55 @@
+shasum /System/Volumes/Data/sgoinfre/goinfre/Perso/xmatute-/bor2code/Born2beRoot/Born2beRoot.vdi
+diff?
+
+CentOS(Community Enterprise Operating System)
+Debian(Deborah + Ian<3) tiene apt(Advanced package tool) el gestor de paquetes
+https://distrowatch.com/images/other/distro-family-tree.png
+Se recomienda encarecidamente Debian si no tienes experien- cia en administración de sistemas.
+AppArmor, módulo de seguridad del kernel Linux, sudo aa-status
+
+ssh xmatute-@10.13.248.177 -p 4242
+
+sudo ufw status
+sudo service ssh status
+ nano /etc/ssh/sshd_config
+uname -a
+
+getent group user42
+getent group sudo
+
+sudo adduser corrector
+addgroup evaluating
+addgroup corrector evaluating
+getent group evaluating
+
+sudo addgroup evaluating
+sudo userdel corrector
+
+ sudo nano /etc/login.defs
+ sudo nano /etc/pam.d/common-password
+
+hostnamectl
+sudo nano /etc/hosts
+sudo hostnamectl set-hostname evaluador42
+
+lsblk
+
+dpkg -l | grep sudo
+sudo ls /var/log/sudo/
+sudo cat /var/log/sudo/sudo.log
+
+dpkg -l | grep ufw
+sudo ufw status numbered
+sudo ufw allow  6969
+sudo ufw deny 6969
+sudo ufw enable
+sudo ufw disable
+sudo ufw delete allow 6969
+
+sudo systemctl status ssh
+SSH(The Secure Shell Protocol) protocolo de seguridad
+nano /etc/ssh/sshd_config
+
+sudo nano /root/monitoring.sh
+sudo crontab -u root -e
+
