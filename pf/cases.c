@@ -6,7 +6,7 @@
 /*   By: xmatute- <xmatute-@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/09/29 21:40:55 by xmatute-          #+#    #+#             */
-/*   Updated: 2022/09/30 12:50:24 by xmatute-         ###   ########.fr       */
+/*   Updated: 2022/11/03 13:55:06 by xmatute-         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -52,6 +52,8 @@ int	case_(char c, va_list va)
 		return (case_d(va_arg(va, int)));
 	if (c == 'u')
 		return (case_u(va_arg(va, unsigned int)));
+	if (c == 'b')
+		return (case_b(va_arg(va, unsigned int)));
 	if (c == 'x')
 		return (case_x(va_arg(va, unsigned int)));
 	if (c == 'X')

@@ -6,7 +6,7 @@
 /*   By: xmatute- <xmatute-@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/09/29 21:43:01 by xmatute-          #+#    #+#             */
-/*   Updated: 2022/09/30 13:06:02 by xmatute-         ###   ########.fr       */
+/*   Updated: 2022/11/03 14:14:12 by xmatute-         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -24,6 +24,12 @@ int	case_u(unsigned int u)
 {
 	ft_putnbr_base(u, "0123456789");
 	return (orderof_base(u, 10));
+}
+
+int	case_b(unsigned int u)
+{
+	ft_putnbr_base(u, "01");
+	return (orderof_base(u, 2));
 }
 
 int	case_x(unsigned int x)
